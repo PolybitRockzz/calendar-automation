@@ -1,0 +1,112 @@
+{
+    "name": "Swastik Biswas",
+    "age": 16,
+    "location": "India",
+    "role": "School Student",
+    "reschedule-tolerance": "30m",
+    "wakeup": "07:00",
+    "sleep": "22:30",
+    "max-freetime-chunk": "30m",
+    "max-freetime-per-day": "2h",
+    "min-worktime-chunk": "1h",
+    "min-worktime-per-day": "5h",
+    "necessities": [
+        {
+            "task": "Breakfast",
+            "start": "08:00",
+            "end": "08:15"
+        },
+        {
+            "task": "Shower",
+            "start": "13:00",
+            "end": "13:10"
+        },
+        {
+            "task": "Lunch",
+            "start": "14:00",
+            "end": "14:30"
+        },
+        {
+            "task": "Snacks",
+            "start": "19:00",
+            "end": "19:15"
+        },
+        {
+            "task": "Dinner",
+            "start": "21:30",
+            "end": "22:00"
+        }
+    ],
+    "daily-habits": [
+        {
+            "habit": "Meditation",
+            "duration": "15m",
+            "tendency": "morning",
+            "weekdays": "Everyday"
+        },
+        {
+            "habit": "Workout",
+            "duration": "1h",
+            "tendency": "evening",
+            "weekdays": ["Monday", "Wednesday", "Friday"]
+        }
+    ],
+    "time-blocks": [
+        {
+            "event": "PW Tuition",
+            "start": "08:00",
+            "end": "14:00",
+            "weekdays": ["Saturday", "Sunday"]
+        },
+        {
+            "event": "Maths Tuition",
+            "duration": "2h",
+            "tendency": "afternoon",
+            "weekdays": ["Sunday", "Tuesday"]
+        },
+        {
+            "event": "Physics Tuition",
+            "start": "16:30",
+            "end": "18:30",
+            "weekdays": ["Monday", "Thursday"]
+        },
+        {
+            "event": "Chemistry Tuition",
+            "start": "09:00",
+            "end": "11:00",
+            "weekdays": ["Wednesday", "Saturday"]
+        }
+    ],
+    "todo": [
+        {
+            "task": "Maths Homework",
+            "relation": "Maths Tuition",
+            "duration": "3h"
+        },
+        {
+            "task": "Maths Revision",
+            "relation": "Maths Tuition",
+            "duration": "2h"
+        },
+        {
+            "task": "Chemistry Revision",
+            "relation": "Chemistry Tuition",
+            "duration": "2h"
+        },
+        {
+            "task": "Physics Revision",
+            "relation": "Physics Tuition",
+            "duration": "3h"
+        },
+        {
+            "task": "Khan Academy Lesson 102",
+            "relation": "null",
+            "duration": "2h"
+        },
+        {
+            "task": "35 Video Ideas",
+            "relation": "null",
+            "duration": "1h 30m"
+        }
+    ]
+}
