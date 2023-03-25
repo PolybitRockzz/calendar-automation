@@ -1,5 +1,11 @@
 import openai
-openai.api_key = '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'
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+KEY = os.getenv('OPENAI_KEY')
+openai.api_key = KEY
 
 def get_from_openai(jsondata, day):
     response = openai.ChatCompletion.create(
