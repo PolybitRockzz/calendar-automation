@@ -7,7 +7,7 @@ load_dotenv()
 KEY = os.getenv('OPENAI_KEY')
 openai.api_key = KEY
 
-def get_from_openai(jsondata, day):
+def get_dayplan(jsondata, day):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
